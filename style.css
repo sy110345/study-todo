@@ -1,0 +1,23 @@
+body {
+  background-color: #f0f4f8; /* 화면 배경을 연한 회색빛으로 칠해 */
+  font-family: sans-serif; /* 글자를 깔끔한 고딕 계열로 보여줘 */
+  max-width: 500px; /* 본문 너비가 최대 500픽셀까지만 커지게 해 */
+  margin: 200px 100px; /* 위아래 여백은 80픽셀, 좌우 여백은 같게 해서 가운데 놓아 */
+  padding: 20px; /* 본문 안쪽에 20픽셀만큼 여유 공간을 줘 */
+}
+h1{
+      color: #253858; 
+}
+input {
+  padding: 12px; /* 입력칸 안쪽에 여유 공간을 줘 */
+  border: 1px solid #cccccc; /* 연한 회색 실선으로 테두리를 그려 */
+  border-radius: 8px; /* 입력칸 모서리를 둥글게 만들어 */
+}
+button {
+  padding: 12px 18px; /* 안쪽 여백을 위아래 12픽셀, 좌우 18픽셀로 정해 */
+  background-color: #2563eb; /* 버튼 배경을 파란색으로 칠해 */
+  color: white; /* 버튼 글자를 흰색으로 칠해 */
+  border: none; /* 기본 테두리를 없애 */
+  border-radius: 8px; /* 버튼 모서리를 둥글게 만들어 */
+  cursor: pointer; /* 마우스를 올리면 손가락 모양으로 바꿔 */
+}
